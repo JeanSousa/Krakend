@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  krakend:
+    build: .
+    image: 'krakend'
+    ports:
+     - "8000:8090"
+    volumes:
+     - ./:/var/www/html/krakend
