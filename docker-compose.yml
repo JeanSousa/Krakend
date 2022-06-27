@@ -7,3 +7,5 @@ services:
      - "8000:8090"
     volumes:
      - ./:/etc/krakend
+    
+     
