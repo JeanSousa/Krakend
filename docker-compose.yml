@@ -6,4 +6,4 @@ services:
     ports:
      - "8000:8090"
     volumes:
-     - ./:/var/www/html/krakend
+     - ./:/etc/krakend
